@@ -3,8 +3,8 @@ require 'multi_json'
 
 module OmniAuth
   module Strategies
-    class Geeklist < OmniAuth::Strategies::OAuth
-      option :name, 'geeklist'
+    class GeeklistSandbox < OmniAuth::Strategies::OAuth
+      option :name, 'geeklist_sandbox'
 
       option :client_options, {
         :site => 'http://sandbox-api.geekli.st/',

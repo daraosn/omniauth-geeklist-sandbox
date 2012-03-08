@@ -1,3 +1,3 @@
-# OmniAuth Geeklist
+# OmniAuth Geeklist - Sandbox Mode
 
 # TODO

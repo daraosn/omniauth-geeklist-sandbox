@@ -1,17 +1,17 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "omniauth-geeklist/version"
+require "omniauth-geeklist-sandbox/version"
 
 Gem::Specification.new do |s|
-  s.name        = "omniauth-geeklist"
-  s.version     = Omniauth::Geeklist::VERSION
+  s.name        = "omniauth-geeklist-sandbox"
+  s.version     = Omniauth::GeeklistSandbox::VERSION
   s.authors     = ["Diego Araos"]
-  s.email       = ["daraosn@gmail.com"]
-  s.homepage    = "https://github.com/daraosn/omniauth-geeklist"
-  s.summary     = %q{OmniAuth strategy for Geeklist}
-  s.description = %q{OmniAuth strategy for Geeklist}
+  s.email       = ["d@wehack.it"]
+  s.homepage    = "https://github.com/daraosn/omniauth-geeklist-sandbox"
+  s.summary     = %q{OmniAuth strategy for Geeklist - Sandbox mode}
+  s.description = %q{OmniAuth strategy for Geeklist - Sandbox mode}
 
-  s.rubyforge_project = "omniauth-geeklist"
+  s.rubyforge_project = "omniauth-geeklist-sandbox"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
